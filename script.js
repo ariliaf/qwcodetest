@@ -1,10 +1,3 @@
-
-/*function init() {
-    console.log('initialized');
-}
-
-window.onload = init; */
-
 // Create a "close" button and append it to each list item
 var myNodelist = document.getElementsByTagName("LI");
 var i;
@@ -24,8 +17,8 @@ for (i = 0; i < close.length; i++) {
   close[i].onclick = function() {
     var element = document.getElementByTagName("LI");
     element.classList.add("removed-item");
-    var div = this.parentElement;
-    div.style.display = "none";
+//    var div = this.parentElement;
+//    div.style.display = "none";
     
   }
 }
