@@ -24,8 +24,8 @@ for (i = 0; i < close.length; i++) {
   close[i].onclick = function() {
     var element = document.getElementByTagName("LI");
     element.classList.add("removed-item");
-//    var div = this.parentElement;
-//    div.style.display = "none";
+    var div = this.parentElement;
+    div.style.display = "none";
     
   }
 }
